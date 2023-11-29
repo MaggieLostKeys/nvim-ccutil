@@ -20,7 +20,7 @@ To change the default column width all languages that do not have an override wi
 
 ```lua
 {
-  url = "https://github.com/MaggieLostKeys/nvim-ccutil",
+  "MaggieLostKeys/nvim-ccutil",
   event = {"BufEnter", "BufAdd"},
   opts = {
     default_width = "100", -- default: 80
@@ -36,7 +36,7 @@ By default, the colour column marks the last allowed column. You can offset the 
 
 ```lua
 {
-  url = "https://github.com/MaggieLostKeys/nvim-ccutil",
+  "MaggieLostKeys/nvim-ccutil",
   event = {"BufEnter", "BufAdd"},
   opts = {
     column_marks_limit = true, -- default: false
@@ -50,7 +50,7 @@ If you want to set a custom column width for a specific language or buffer type,
 
 ```lua
 {
-  url = "https://github.com/MaggieLostKeys/nvim-ccutil",
+  "MaggieLostKeys/nvim-ccutil",
   event = {"BufEnter", "BufAdd"},
   opts = {
     type_overrides = {
